@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+    
+    
+}
+body{
+    height: 100vh;
+    background-color:grey;
+}
+.btn{
+}
+.clear{
+    color: black;
+}
+.wrapper{
+    margin: 120px auto;
+    max-width: 400px;
+    width: 100%;
+    background:white;
+    border-radius: 5px;
+    padding: 25px;
+}
+.wrapper header{
+    font-size: 30px;
+    font-weight: 600;
+}
+.wrapper .inputField{
+    display: flex;
+    height: 45px;
+    width: 100%;
+    margin: 20px 0;
+}
+.inputField input{
+    outline: none;
+    width: 85%;
+    height: 100%;
+    border: 2px solid blue;
+    font-size: 17px;
+    border-radius: 3px;
+    padding-left: 15px;
+}
+.inputField button{
+    width: 60px;
+    height: 100%;
+    border: none;
+    outline: none;
+    background: black;
+    color: white;
+    font-size: 22px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+
+.wrapper .todoList{
+
+}
+.todoList li{
+    list-style: none;
+    height: 30px;
+    line-height: 30px;
+    position: relative;
+    background: rgb(202, 183, 183);
+    border-radius: 3px;
+    margin-bottom: 5px;
+    padding: 0 15px;
+}
+.todoList li span{
+    position: absolute;
+    right: 0px;
+    color: white;
+    width: 45px;
+    text-align: center;
+    background-color: red;
+    border-radius: 0 3px 3px 0;
+    cursor: pointer;
+}
